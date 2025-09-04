@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3751118667007577981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3751118667007577983}
+  - component: {fileID: 3751118667007577980}
+  - component: {fileID: 3751118667007577982}
+  - component: {fileID: 3751118667007577952}
+  - component: {fileID: 3751118667007577953}
+  m_Layer: 0
+  m_Name: Settings override
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3751118667007577983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3751118667007577981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.673937, y: -0.5692878, z: -3.0879734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3751118667007577980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3751118667007577981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97125843def9445685a3abad58b14e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environmentSettings:
+    disableTeleport: 1
+    useSeatsAsSpawnPoints: 0
+    enableAvatarToAvatarCollisions: 0
+    enableAvatarRagdolls: 0
+    cameraRotationMode: 1
+    respawnLevelY: -100
+    defaultMovementMaterial: {fileID: 0}
+    disableFirstTutorial: 0
+    initialXRCameraMode: 0
+    allowPlayerToSwitchXRCameraMode: 1
+    virtualizeMouseClickInXR: 1
+    avatarControlSettings: 1
+    localAvatarMovingSpeed: 2
+    localAvatarRunSpeed: 3
+    localAvatarJumpHeight: 1.5
+    localAvatarGravityMultiplier: 1.5
+    localAvatarFallingGravityMultiplier: 1
+    localAvatarUseVariableHeightJump: 1
+    localAvatarMaxJumpCount: 2
+    localAvatarGroundFriction: 1
+    localAvatarAirControl: 1
+--- !u!114 &3751118667007577982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3751118667007577981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e9ab32594674b00a4017565ea1d0c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideSettings: 1
+  renderPipelineSettings:
+    supportsCameraDepthTexture: 1
+    supportsCameraOpaqueTexture: 1
+    opaqueDownsampling: 1
+    supportsHDR: 1
+    msaaSampleCount: 2
+    mainLightRenderingMode: 1
+    mainLightShadowmapResolution: 2048
+    additionalLightsRenderingMode: 1
+    maxAdditionalLightsCount: 8
+    shadowDistance: 30
+    shadowCascadeCount: 1
+    cascade2Split: 0.25
+    cascade3Split: {x: 0.1, y: 0.3}
+    cascade4Split: {x: 0.067, y: 0.2, z: 0.467}
+    cascadeBorder: 0.2
+    shadowDepthBias: 0.1
+    shadowNormalBias: 0.02
+    colorGradingMode: 1
+    colorGradingLutSize: 32
+--- !u!114 &3751118667007577952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3751118667007577981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &3751118667007577953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3751118667007577981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":226.6188,"y":-61.66176},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-329.0,"y":-80.0},"guid":"e3c81e62-2a33-4836-b189-713d71ebae6e","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.OnSceneInitializedNode","$id":"10"},{"defaultValues":{"minZoomDistance":{"$content":1.0,"$type":"System.Single"}},"position":{"x":43.0,"y":-68.0},"guid":"75959234-2ab8-4930-b316-147e7c806ae3","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SetPlayerCameraMinZoomDistanceNode","$id":"12"},{"defaultValues":{"zoomDistance":{"$content":1.0,"$type":"System.Single"}},"position":{"x":345.0,"y":-70.0},"guid":"9ffe3cdb-48f9-4fc5-953c-18e270e91e34","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SetPlayerCameraZoomDistanceNode","$id":"14"},{"defaultValues":{"maxZoomDistance":{"$content":3.0,"$type":"System.Single"}},"position":{"x":605.0,"y":-71.0},"guid":"023130fc-8158-47f1-bd77-34169d861a6b","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SetPlayerCameraMaxZoomDistanceNode","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"inputTrigger","guid":"e4f1d068-662b-4239-98c0-2ee8a94d7bf2","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"outputTrigger","destinationUnit":{"$ref":"14"},"destinationKey":"inputTrigger","guid":"8680cd2b-51f1-4d17-87bd-fa9930ae8e22","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"outputTrigger","destinationUnit":{"$ref":"16"},"destinationKey":"inputTrigger","guid":"3b3bab3c-1269-4b3d-978b-6cb0f9a6ea86","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []

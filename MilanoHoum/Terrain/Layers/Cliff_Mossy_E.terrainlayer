@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1953259897 &8574412962073106934
+TerrainLayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cliff_Mossy_E
+  m_DiffuseTexture: {fileID: 2800000, guid: 12f2d6a970b83144c8c72a2a6a36b861, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 392874c37128bc34999e136e8eb545c0, type: 3}
+  m_MaskMapTexture: {fileID: 2800000, guid: 3cfd51c92b1060249bf1713d71cb1520, type: 3}
+  m_TileSize: {x: 25, y: 25}
+  m_TileOffset: {x: 0, y: 0}
+  m_Specular: {r: 0, g: 0, b: 0, a: 0}
+  m_Metallic: 0
+  m_Smoothness: 0
+  m_NormalScale: 1.5
+  m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+  m_DiffuseRemapMax: {x: 0.735849, y: 0.6872552, z: 0.62246346, w: 1}
+  m_MaskMapRemapMin: {x: 0, y: 0, z: -0, w: 0}
+  m_MaskMapRemapMax: {x: 1, y: 1, z: 1, w: 0.6150762}
